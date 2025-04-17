@@ -1,0 +1,16 @@
+TOTAL (Bayesian)
+Posterior Predictive R²: 0.463
+Test Set MSE: 253.174
+Test Set RMSE: 15.911
+Test Set R²: 0.463
+Shapiro-Wilk Test p-value: 5.042555932501995e-06
+T-test p-value: 0.707088049042161
+Skewness: 0.224734761639111
+Kurtosis: 0.31014473732097514
+Maximum Likelihood Estimate for Mean (mu): -0.19144774567240674
+Maximum Likelihood Estimate for Std Dev (sigma): 15.910282977092562
+Anderson-Darling statistic: 1.472568286008027
+Critical values: [0.575 0.655 0.786 0.917 1.09 ]
+Significance levels: [15.  10.   5.   2.5  1. ]
+MAE: 12.630
+RMSE: 15.911

@@ -1,0 +1,242 @@
+[
+  {
+    "gameId": "0022400752",
+    "gameCode": "20250209/CHADET",
+    "gameStatus": 3,
+    "gameStatusText": "Final",
+    "period": 4,
+    "gameClock": "",
+    "gameTimeUTC": "2025-02-09T18:00:00Z",
+    "gameEt": "2025-02-09T13:00:00Z",
+    "regulationPeriods": 4,
+    "ifNecessary": false,
+    "seriesGameNumber": "",
+    "gameLabel": "",
+    "gameSubLabel": "",
+    "seriesText": "",
+    "seriesConference": "",
+    "poRoundDesc": "",
+    "gameSubtype": "",
+    "homeTeam": {
+      "teamId": 1610612765,
+      "teamName": "Pistons",
+      "teamCity": "Detroit",
+      "teamTricode": "DET",
+      "wins": 27,
+      "losses": 26,
+      "score": 112,
+      "seed": "None",
+      "inBonus": "None",
+      "timeoutsRemaining": 1,
+      "periods": [
+        { "period": 1, "periodType": "REGULAR", "score": 39 },
+        { "period": 2, "periodType": "REGULAR", "score": 27 },
+        { "period": 3, "periodType": "REGULAR", "score": 24 },
+        { "period": 4, "periodType": "REGULAR", "score": 22 }
+      ]
+    },
+    "awayTeam": {
+      "teamId": 1610612766,
+      "teamName": "Hornets",
+      "teamCity": "Charlotte",
+      "teamTricode": "CHA",
+      "wins": 13,
+      "losses": 37,
+      "score": 102,
+      "seed": "None",
+      "inBonus": "None",
+      "timeoutsRemaining": 0,
+      "periods": [
+        { "period": 1, "periodType": "REGULAR", "score": 15 },
+        { "period": 2, "periodType": "REGULAR", "score": 31 },
+        { "period": 3, "periodType": "REGULAR", "score": 27 },
+        { "period": 4, "periodType": "REGULAR", "score": 29 }
+      ]
+    },
+    "gameLeaders": {
+      "homeLeaders": {
+        "personId": 1630595,
+        "name": "Cade Cunningham",
+        "jerseyNum": "2",
+        "position": "G",
+        "teamTricode": "DET",
+        "playerSlug": "None",
+        "points": 19,
+        "rebounds": 10,
+        "assists": 12
+      },
+      "awayLeaders": {
+        "personId": 1628970,
+        "name": "Miles Bridges",
+        "jerseyNum": "0",
+        "position": "F",
+        "teamTricode": "CHA",
+        "playerSlug": "None",
+        "points": 30,
+        "rebounds": 9,
+        "assists": 3
+      }
+    },
+    "pbOdds": { "team": "None", "odds": 0.0, "suspended": 0 }
+  },
+  {
+    "gameId": "0022400753",
+    "gameCode": "20250209/TORHOU",
+    "gameStatus": 2,
+    "gameStatusText": "4th Qtr             ",
+    "period": 4,
+    "gameClock": "0:53 ",
+    "gameTimeUTC": "2025-02-09T19:00:00Z",
+    "gameEt": "2025-02-09T14:00:00Z",
+    "regulationPeriods": 4,
+    "ifNecessary": false,
+    "seriesGameNumber": "",
+    "gameLabel": "",
+    "gameSubLabel": "",
+    "seriesText": "",
+    "seriesConference": "",
+    "poRoundDesc": "",
+    "gameSubtype": "",
+    "homeTeam": {
+      "teamId": 1610612745,
+      "teamName": "Rockets",
+      "teamCity": "Houston",
+      "teamTricode": "HOU",
+      "wins": 32,
+      "losses": 20,
+      "score": 93,
+      "seed": "None",
+      "inBonus": "None",
+      "timeoutsRemaining": 1,
+      "periods": [
+        { "period": 1, "periodType": "REGULAR", "score": 18 },
+        { "period": 2, "periodType": "REGULAR", "score": 19 },
+        { "period": 3, "periodType": "REGULAR", "score": 21 },
+        { "period": 4, "periodType": "REGULAR", "score": 35 }
+      ]
+    },
+    "awayTeam": {
+      "teamId": 1610612761,
+      "teamName": "Raptors",
+      "teamCity": "Toronto",
+      "teamTricode": "TOR",
+      "wins": 16,
+      "losses": 36,
+      "score": 85,
+      "seed": "None",
+      "inBonus": "None",
+      "timeoutsRemaining": 1,
+      "periods": [
+        { "period": 1, "periodType": "REGULAR", "score": 22 },
+        { "period": 2, "periodType": "REGULAR", "score": 20 },
+        { "period": 3, "periodType": "REGULAR", "score": 21 },
+        { "period": 4, "periodType": "REGULAR", "score": 22 }
+      ]
+    },
+    "gameLeaders": {
+      "homeLeaders": {
+        "personId": 1630224,
+        "name": "Jalen Green",
+        "jerseyNum": "4",
+        "position": "G",
+        "teamTricode": "HOU",
+        "playerSlug": "None",
+        "points": 17,
+        "rebounds": 9,
+        "assists": 3
+      },
+      "awayLeaders": {
+        "personId": 1630567,
+        "name": "Scottie Barnes",
+        "jerseyNum": "4",
+        "position": "F-G",
+        "teamTricode": "TOR",
+        "playerSlug": "None",
+        "points": 15,
+        "rebounds": 9,
+        "assists": 7
+      }
+    },
+    "pbOdds": { "team": "None", "odds": 0.0, "suspended": 0 }
+  },
+  {
+    "gameId": "0022400754",
+    "gameCode": "20250209/PHIMIL",
+    "gameStatus": 2,
+    "gameStatusText": "4th Qtr             ",
+    "period": 4,
+    "gameClock": "0:44 ",
+    "gameTimeUTC": "2025-02-09T19:00:00Z",
+    "gameEt": "2025-02-09T14:00:00Z",
+    "regulationPeriods": 4,
+    "ifNecessary": false,
+    "seriesGameNumber": "",
+    "gameLabel": "",
+    "gameSubLabel": "",
+    "seriesText": "",
+    "seriesConference": "",
+    "poRoundDesc": "",
+    "gameSubtype": "",
+    "homeTeam": {
+      "teamId": 1610612749,
+      "teamName": "Bucks",
+      "teamCity": "Milwaukee",
+      "teamTricode": "MIL",
+      "wins": 27,
+      "losses": 23,
+      "score": 131,
+      "seed": "None",
+      "inBonus": "None",
+      "timeoutsRemaining": 0,
+      "periods": [
+        { "period": 1, "periodType": "REGULAR", "score": 40 },
+        { "period": 2, "periodType": "REGULAR", "score": 25 },
+        { "period": 3, "periodType": "REGULAR", "score": 38 },
+        { "period": 4, "periodType": "REGULAR", "score": 28 }
+      ]
+    },
+    "awayTeam": {
+      "teamId": 1610612755,
+      "teamName": "76ers",
+      "teamCity": "Philadelphia",
+      "teamTricode": "PHI",
+      "wins": 20,
+      "losses": 31,
+      "score": 122,
+      "seed": "None",
+      "inBonus": "None",
+      "timeoutsRemaining": 1,
+      "periods": [
+        { "period": 1, "periodType": "REGULAR", "score": 39 },
+        { "period": 2, "periodType": "REGULAR", "score": 24 },
+        { "period": 3, "periodType": "REGULAR", "score": 28 },
+        { "period": 4, "periodType": "REGULAR", "score": 31 }
+      ]
+    },
+    "gameLeaders": {
+      "homeLeaders": {
+        "personId": 203081,
+        "name": "Damian Lillard",
+        "jerseyNum": "0",
+        "position": "G",
+        "teamTricode": "MIL",
+        "playerSlug": "None",
+        "points": 41,
+        "rebounds": 8,
+        "assists": 8
+      },
+      "awayLeaders": {
+        "personId": 1630178,
+        "name": "Tyrese Maxey",
+        "jerseyNum": "0",
+        "position": "G",
+        "teamTricode": "PHI",
+        "playerSlug": "None",
+        "points": 39,
+        "rebounds": 4,
+        "assists": 5
+      }
+    },
+    "pbOdds": { "team": "None", "odds": 0.0, "suspended": 0 }
+  }
+]

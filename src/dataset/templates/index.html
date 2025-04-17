@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(2, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .game-tile {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .prediction-table {
+            width: 100%;
+            margin-top: 10px;
+            border-collapse: collapse;
+        }
+        .prediction-table td, .prediction-table th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .highlight {
+            background-color: #d4edda;
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        function updateScores() {
+            fetch('/scores')
+            .then(response => response.json())
+            .then(data => {
+                for (let game_id in data) {
+                    document.getElementById(`game-${game_id}`).innerText = `Score: ${data[game_id].SCORE}`;
+                    let predictionTable = document.getElementById(`prediction-${game_id}`);
+                    if (data[game_id].IS_END) {
+                        predictionTable.innerHTML = `
+                            <tr><th>Bet Type</th><th>60% floor</th><th>56% floor</th><th>Prediction</th><th>56% ceiling</th><th>60% ceiling</th></tr>
+                            <tr><td>Spread</td><td>${data[game_id].spread_conf["60%"]["floor"]}</td><td>${data[game_id].spread_conf["56%"]["floor"]}</td><td>${data[game_id].spread}</td><td>${data[game_id].spread_conf["56%"]["ceiling"]}</td><td>${data[game_id].spread_conf["60%"]["ceiling"]}</td></tr>
+                            <tr><td>Total</td><td>${data[game_id].total_conf["60%"]["floor"]}</td><td>${data[game_id].total_conf["56%"]["floor"]}</td><td>${data[game_id].total}</td><td>${data[game_id].total_conf["56%"]["ceiling"]}</td><td>${data[game_id].total_conf["60%"]["ceiling"]}</td></tr>
+                            <tr><td>Homepoints</td><td>${data[game_id].home_conf["60%"]["floor"]}</td><td>${data[game_id].home_conf["56%"]["floor"]}</td><td>${data[game_id].homepoints}</td><td>${data[game_id].home_conf["56%"]["ceiling"]}</td><td>${data[game_id].home_conf["60%"]["ceiling"]}</td></tr>
+                            <tr><td>Awaypoints</td><td>${data[game_id].away_conf["60%"]["floor"]}</td><td>${data[game_id].away_conf["56%"]["floor"]}</td><td>${data[game_id].awaypoints}</td><td>${data[game_id].away_conf["56%"]["ceiling"]}</td><td>${data[game_id].away_conf["60%"]["ceiling"]}</td></tr>
+                            <tr><td>Winner</td><td>>${data[game_id].winner}</td><td>>${data[game_id].winnerprob}</td><td></td><td></td><td></td></tr>
+                        `;
+                    }
+                }
+            });
+        }
+        setInterval(updateScores, 1000);
+    </script>
+</head>
+<body>
+    <h1>NBA Dashboard</h1>
+    <div class="dashboard">
+        {% for game in games %}
+            <div class="game-tile">
+                <h2>{{ game.AWAY_V }} at {{ game.HOME_V }}</h2>
+                <p id="game-{{ game.GAME_ID }}">Loading...</p>
+                <table class="prediction-table" id="prediction-{{ game.GAME_ID }}"></table>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

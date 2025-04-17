@@ -1,0 +1,12 @@
+Test Set MSE: 189.112
+Test Set RMSE: 13.752
+Test Set R²: 0.599
+Shapiro-Wilk Test p-value: 1.011269637679739e-12
+T-test p-value: 0.7361647206388913
+Skewness: 0.3898944135620982
+Kurtosis: 1.1147023205826256
+Maximum Likelihood Estimate for Mean (mu): -0.17982420697091425
+Maximum Likelihood Estimate for Std Dev (sigma): 13.750620818692068
+Anderson-Darling statistic: 3.2359410233630115
+Critical values: [0.575 0.655 0.786 0.917 1.09 ]
+Significance levels: [15.  10.   5.   2.5  1. ]

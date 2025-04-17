@@ -1,0 +1,16 @@
+AWAYPOINTS (Bayesian)
+Posterior Predictive R²: 0.475
+Test Set MSE: 79.158
+Test Set RMSE: 8.897
+Test Set R²: 0.475
+Shapiro-Wilk Test p-value: 0.37797616238221665
+T-test p-value: 0.42556721004675346
+Skewness: 0.12221965523078208
+Kurtosis: 0.005963697824903136
+Maximum Likelihood Estimate for Mean (mu): 0.35240768571740155
+Maximum Likelihood Estimate for Std Dev (sigma): 8.890094708752988
+Anderson-Darling statistic: 0.3824932548200195
+Critical values: [0.574 0.654 0.784 0.915 1.088]
+Significance levels: [15.  10.   5.   2.5  1. ]
+MAE: 7.146
+RMSE: 8.897
