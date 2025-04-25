@@ -1,0 +1,16 @@
+TOTAL (Bayesian Team Effects)
+R²:   0.618
+Test Set MSE: 180.206
+Test Set RMSE: 13.424
+Test Set R²: 0.618
+Shapiro-Wilk Test p-value: 2.352012776706591e-14
+T-test p-value: 0.7295236479957135
+Skewness: 0.4463043562428872
+Kurtosis: 1.3235984781691972
+Maximum Likelihood Estimate for Mean (mu): -0.1849966738742068
+Maximum Likelihood Estimate for Std Dev (sigma): 13.422806187594974
+Anderson-Darling statistic: 3.491200080729868
+Critical values: [0.575 0.655 0.786 0.917 1.09 ]
+Significance levels: [15.  10.   5.   2.5  1. ]
+MAE:  10.459
+RMSE: 13.424

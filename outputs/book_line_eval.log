@@ -1,0 +1,9 @@
+Evaluation of Bookmaker Over/Under Lines vs Actual Totals
+---------------------------------------------------------
+Test Set MSE: 170.642
+Test Set RMSE: 13.063
+Test Set R²: 0.595
+Shapiro-Wilk Test p-value: 5.176733532470815e-06
+T-test p-value: 0.7171503883189154
+Skewness: 0.33951660133885714
+Kurtosis: 0.4563280980296094
